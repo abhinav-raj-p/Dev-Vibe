@@ -1,0 +1,29 @@
+body {
+    background-color: #050507;
+    background-image: 
+        radial-gradient(circle at 15% 50%, rgba(189, 0, 255, 0.08) 0%, transparent 25%),
+        radial-gradient(circle at 85% 30%, rgba(0, 240, 255, 0.08) 0%, transparent 25%);
+    color: #E2E8F0;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.glass-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.1);
+}
+
+.text-glow-cyan {
+    text-shadow: 0 0 20px rgba(0, 240, 255, 0.3);
+}
+
+.text-glow-purple {
+    text-shadow: 0 0 20px rgba(189, 0, 255, 0.3);
+}
