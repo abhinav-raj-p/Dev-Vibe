@@ -27,3 +27,7 @@ body {
 .text-glow-purple {
     text-shadow: 0 0 20px rgba(189, 0, 255, 0.3);
 }
+::selection {
+  background: rgba(189, 0, 255, 0.3);
+  color: #00F0FF;
+}
